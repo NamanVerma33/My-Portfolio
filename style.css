@@ -50,7 +50,7 @@
 }
 
 .hero-section{
-    min-height: 85vh;
+    min-height: 85.5vh;
     font-family: "Montserrat", sans-serif;
 }
 .hero-section .container h1{
@@ -108,7 +108,7 @@
         margin-top: 3rem;
     }
     .container h1{
-        font-size: 1.9rem;
+        font-size: 1.9rem !important; 
     }
     .container span{
         font-size: 1rem;
@@ -116,10 +116,70 @@
     }
     .desc{
         max-width: 100%;
-        font-size: 1rem;
+        font-size: 0.6rem;
+    }
+    .container1 h1{
+        font-size: 2rem !important;
+    }
+    .container1 h3{
+        font-size: 1rem !important;
+    }
+    .about-me{
+        width: 15rem !important;
+
+        height: 15rem !important;    }
+    .glow{
+        left: 0;
     }
 }
 
 .aboutme-section{
-    padding: 5rem;
+    padding-block: 5rem;
+}
+
+.container1 h1{
+    font-size: 3rem;
+}
+.container1 h3{
+    font-size: 1.5rem;
+}
+.container p{
+    font-size: 1rem;
+}
+
+.about-me{
+    width: 25rem;
+    aspect-ratio: 1;
+    height: 25rem;
+}
+
+/* .glow{
+    position: relative;
+    z-index: 1;
+}
+.glow::before{
+    content: "";
+    position: absolute;
+    background: var(--green-clr);
+    border-radius: 50%;
+    inset: 5rem;
+    /* right: 400px; */
+    /* left: 100px;
+    right: 150px;
+    z-index: -1;
+    filter: blur(50px);} */
+
+
+.card-hover:hover{
+        background-color: var(--green-clr);
+        cursor: pointer;
+}
+
+.card-hover:hover *{
+    color: black !important;
+}
+
+
+.card-size{
+    width: 21rem;
 }
